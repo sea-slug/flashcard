@@ -1,0 +1,8 @@
+# Botアカウントの設定
+token: ""
+user_id: 
+
+# 語彙ファイルの設定
+datafile:
+    - "vocab.csv"
+    - "name.csv"
