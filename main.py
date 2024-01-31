@@ -87,8 +87,6 @@ if __name__ == "__main__":
                 else:
                     vocab[k] = v
     rev_vocab = {v:k for k, v in vocab.items()}
-                    
-    # MY_USERID = config["user_id"]
  
     #Botの起動とDiscordサーバーへの接続
     client.run(config["token"])
